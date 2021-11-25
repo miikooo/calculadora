@@ -1,0 +1,63 @@
+/* zerar o html */
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+/* zerou */
+
+body {
+   
+    background-color: rgb(226, 185, 231);
+
+}
+
+nav {
+
+    width: 80%;
+    height: 46px;
+    margin: 30px auto 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /*para posicionar bem os itens*/
+    grid-gap: 10px;
+
+}
+
+nav a {
+
+    background-color: rgb(185, 93, 173);
+    color: #000;
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(185, 93, 173);
+}
+
+nav a:hover {
+    background-color: rgb(156, 57, 140);
+    color: #fff;
+}
+
+.selecionada {
+    background-color: rgb(156, 57, 140);
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
